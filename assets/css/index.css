@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerContainer {
+    background-color: rgb(67, 70, 70);
+    margin-bottom: -0.5rem;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    background: #353a40;
+    margin-top: -3%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#tituloLogo {
+    color: #fefdf3;
+    position: relative;
+    right: 1%;
+}
+
+.margenIzquierdologo {
+    margin-left: 5%;
+}
+
+
+/*Separacion menu*/
+
+#movMenu {
+    margin-left: 29%;
+}
+
+.color-letraMenu {
+    color: #fefdf3;
+}
+
+#letraMenuMouse {
+    color: #9a9ca1;
+}
+
+#letraMenuMouse:hover {
+    color: #fefdf3;
+}
+
+#letraComprar {
+    color: #2b9642;
+}
+
+#letraComprar:hover {
+    color:lawngreen;
+}
+
+#ConfTitulo{
+    color: #fefdf3;
+}
+/*Carousel */
+#carImagen {
+    margin-top: 3%;
+}
+.carAjuste {
+    margin-left: 40%;
+    margin-right: 1%;
+}
+
+.bt10 {
+    color: #fefdf3;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+#rellenoCarInfo {
+    background: #353a40;
+}
+
+#textCarInfo {
+    color: #fefdf3;
+}
+
+#ajustar {
+    height: 380px;
+}
+
+u {
+    border-bottom: 2px dotted #000;
+    text-decoration: none;
+}
+
+
+/*imagen padreo Conf*/
+#ConfPadre {
+    position: relative;    
+    display: inline-block;
+  }
+#idConf {
+    position: absolute;    
+    width: 40%;
+    right:1rem;
+}
+
+.classConf {
+    top: 40%;  
+    bottom: auto;
+}
+
+.botonesConf {
+    display:flex;
+    justify-content: right;
+}  
+
+#butConfOrador {
+    background-color: rgb(98, 95, 95)!important;
+    border-color: aliceblue; 
+    margin-right: 10px; 
+}
+
+#butConfTicket {
+    background-color: rgb(63, 211, 34)!important;
+    border-color: aliceblue;
+    border: none;   
+}
+
+.ConfTexto {
+    color: aliceblue;
+    text-align: right;
+}
+
+.card {
+    margin: 0px 10px;
+}
+
+
+.tituloCentrado {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+h3 {
+    color: aliceblue;
+    text-align: right;
+}
+#degrade {
+    filter: brightness(0.5);
+}
+
+/*Tarjetas*/
+#tarjetasUno {
+    margin: 0px 0px 20px;
+}
+
+.card-text1 {
+    color: aliceblue;
+    text-align: right;
+}
+
+.card {
+    margin: 0px 10px;
+}
+
+#btnAmarillo {
+    background-color: gold;
+    color: black;
+    border: none;
+}
+
+#btnVerde {
+    background-color: rgb(32, 158, 113);
+    color: aliceblue;
+    border: none;
+}
+#btnGris {
+    background-color: rgb(72, 72, 70);
+    color: aliceblue;
+    border: none;
+}
+
+#btnRojo {
+    background-color: rgb(209, 25, 102);
+    color: aliceblue;
+    border: none;
+}
+
+
+/*#formulario*/
+
+#td3 {
+    margin-top: 2%;
+}
+
+#td4 {
+    background: #96c93e;
+    color: #fefdf3;
+    border: 1px;
+    margin-top: 2%;
+}
+
+#form {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(14, 71, 87);
+}
+
+footer ul li {
+    display: inline-block; 
+}
+
+footer ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 10px 40px;
+}
+
+footer div {
+    display:flex;
+    justify-content: center;
+}
+
+.dobleLinea {
+    display:flex;
+    justify-content: center;
+
+}    
