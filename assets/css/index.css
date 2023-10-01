@@ -241,3 +241,9 @@ footer div {
     justify-content: center;
 
 }    
+
+@media (min-width:1px) and (max-width:425px) {
+    .idConf{
+        width: auto !important;        
+    }
+}
