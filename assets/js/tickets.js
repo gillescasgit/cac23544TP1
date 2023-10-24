@@ -58,7 +58,7 @@ function validarCantidad(){
     let cantidad=document.getElementById('cantidad').value;
     debugger
 
-    if(Number(cantidad==0))
+    if(Number(cantidad<1))
         return false;
 
     return true;
