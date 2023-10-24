@@ -1,0 +1,66 @@
+.centrar {
+    margin-top: 2%;
+    text-align: center;
+    gap: 1%;
+    margin-right: 16%;
+    margin-left: 16%;
+}
+
+.estirar {
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+#borde1 {
+    border: 1px #047dfe solid;
+}
+
+#borde2 {
+    border: 1px #4bb7c8 solid;
+}
+
+#borde3 {
+    border: 1px #ffc10a solid;
+}
+
+.abajo1 {
+    margin-bottom: 2%;
+}
+
+.estirar {
+    padding-left: 25%;
+}
+
+#arriba1 {
+    margin-top: -1%;
+}
+
+#input_correo {
+    margin-bottom: 2%;
+}
+
+#cantidad {
+    margin-left: 0.5%;
+}
+
+#categoria {
+    margin-right: 0%;
+}
+
+#separar {
+    gap: 1%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+}
+
+#resumen {
+    padding-left: 1%;
+}
+
+
+/*Para dar mismo espacio entre palabras a "Prensa"*/
+
+.izq {
+    margin-left: 10%;
+}
+
