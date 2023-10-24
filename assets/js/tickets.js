@@ -32,7 +32,7 @@ function obtenerDecuento(){
 switch (opcionValor)
     {
         case "Estudiante":
-            retorno=0.15;
+            retorno=0.80;
             break;
 
         case "Trainee":
@@ -40,7 +40,7 @@ switch (opcionValor)
             break;
 
         case "Junior":
-            retorno=0.80;
+            retorno=0.15;
             break;
         case "General":
             retorno=0.0;
