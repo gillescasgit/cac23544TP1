@@ -101,6 +101,7 @@
             fetch(`http://localhost:8080/web-app-23544/api/orador`, {
                 method: "POST",
                 body: JSON.stringify(orador),
+                  mode: 'no-cors'
             })
             .then(response => response.json()) 
             .then(json => {
