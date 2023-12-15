@@ -28,10 +28,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div id="movMenu" class="navbar-nav">
-                        <a id="letraMenuMouse" class="nav-link active" href="#Conferencia">La conferencia</a>
-                        <a id="letraMenuMouse" class="nav-link active" href="#Oradores">Los oradores</a>
+                        <a id="letraMenuMouse" class="nav-link active" href="./index.html">La conferencia</a>
+                        <a id="letraMenuMouse" class="nav-link active" href="./listaOradores.html">Los oradores</a>
                         <a id="letraMenuMouse" class="nav-link active" href="#BA">El lugar y la fecha</a>
-                        <a id="letraMenuMouse" class="nav-link active" href="#SerOrador">Conviertete en orador</a>
+                        <a id="letraMenuMouse" class="nav-link active" href="./altaOrador.html">Conviertete en orador</a>
                         <a id="letraComprar" class="nav-link active" href="./tickets.html">Comprar tickets</a>
                     </div>
                 </div>
@@ -113,13 +113,17 @@
                     <div class="alert alert-primary" role="alert">
                         <span>Total a pagar$ <label id="res"></label> </span>
                     </div>
+
                 </div>
-                <div class="d-grid col-md-6">
+                <div class="d-grid col-md-4">
                     <button id="td4" type="submit" onclick="borrar()" class="btn btn-primary btn-lg">Borrar</button>
                 </div>
 
-                <div id="boton_resumen" class="d-grid col-md-6">
+                <div id="boton_resumen" class="d-grid col-md-4">
                     <button id="td4"  type="submit" onclick="calcularTotal()" class="btn btn-primary btn-lg">Resumen</button>
+                </div>
+                <div id="boton_send" class= "d-grid col-md-4">
+                    <button id="tdx"  type="submit" onclick="enviarTotal()" class="btn btn-primary btn-lg">Reservar</button>
                 </div>
             </div>
         </div>
